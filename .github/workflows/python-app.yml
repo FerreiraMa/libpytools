@@ -10,6 +10,12 @@ on:
     branches: [ main ]
 
 jobs:
+  tag-release:
+    if: |
+      github.event_name == 'pull_request' &&
+      github.event.action == 'closed' &&
+      github.event.pull_request.merged == true &&
+      contains(github.event.pull_request.labels.*.name, 'release')
   build:
 
     runs-on: ubuntu-latest
