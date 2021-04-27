@@ -2,7 +2,7 @@
 
 Módulo para exemplificar a construção de projetos Python.
 
-Exemplo de como contribuir com projetos de código aberto
+Exemplo de como contribuir com projetos de código aberto.
 
 Link [libpytools](https://github.com/FerreiraMa/libpytools/)
 
@@ -32,3 +32,4 @@ Tópicos a serem abordados:
 1. Git
 2. Virtualenv
 3. Pip
+4. Pypi
