@@ -1,6 +1,6 @@
 # libpytools
 
-Módulo para exemplificar a construção de projetos Python
+Módulo para exemplificar a construção de projetos Python.
 
 Exemplo de como contribuir com projetos de código aberto
 
