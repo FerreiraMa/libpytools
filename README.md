@@ -5,7 +5,8 @@ Módulo para exemplificar a construção de projetos Python
 Exemplo de como contribuir com projetos de código aberto
 
 Link [libpytools](https://github.com/FerreiraMa/libpytools/)
-![fluxo de trabalho de exemplo](https://github.com/FerreiraMa/libpytools/workflows/python-app.yml/badge.svg)
+
+![fluxo de trabalho](https://github.com/FerreiraMa/libpytools/blob/main/.github/workflows/python-app.yml/badge.svg)
 
 Suporta versão 3 do Python
 
