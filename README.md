@@ -9,7 +9,7 @@ Link [libpytools](https://github.com/FerreiraMa/libpytools/)
 ![fluxo de trabalho](https://github.com/FerreiraMa/libpytools/actions/workflows/python-app.yml/badge.svg)
 [![Updates](https://pyup.io/repos/github/FerreiraMa/libpytools/shield.svg)](https://pyup.io/repos/github/FerreiraMa/libpytools/)
 [![Python 3](https://pyup.io/repos/github/FerreiraMa/libpytools/python-3-shield.svg)](https://pyup.io/repos/github/FerreiraMa/libpytools/)
-
+[![codecov](https://codecov.io/gh/FerreiraMa/libpytools/branch/main/graph/badge.svg?token=JKWTLL7W5L)](https://codecov.io/gh/FerreiraMa/libpytools)
 
 Suporta versão 3 do Python
 
