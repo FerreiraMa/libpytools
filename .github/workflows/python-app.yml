@@ -34,6 +34,6 @@ jobs:
       run:  pipenv run pytest libpytools --cov=libpytools
     - name: rodando codecov
       run: |
-        coverage run -m unittest
+        codecov
     - name: Upload Coverage to Codecov
       uses: codecov/codecov-action@v1
