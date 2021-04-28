@@ -26,9 +26,14 @@ jobs:
         sudo apt upgrade
         pip install pipenv
     - name: instalando bibliotecas de desenvolvimento
-      run: pipenv install -r requirements-dev.txt
+      run: pipenv install -r requirements-dev.txt codecov
     - name: rodando flake8
       run: |
         pipenv run flake8
     - name: rodando pytest
-      run:  pipenv run pytest
+      run:  pipenv run pytest libpytools --cov=libpytools
+    - name: rodando codecov
+      run: |
+        coverage run -m unittest
+    - name: Upload Coverage to Codecov
+      uses: codecov/codecov-action@v1
