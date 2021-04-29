@@ -32,6 +32,7 @@ jobs:
         pipenv run flake8
     - name: rodando pytest
       run:  pipenv run pytest libpytools --cov=libpytools
-    - name: Upload Coverage to Codecov
+    - name: rodando Codecov
       run: pipenv run codecov
+    - name: Upload Coverage to Codecov
       uses: codecov/codecov-action@v1
