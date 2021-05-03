@@ -1,6 +1,5 @@
 from unittest.mock import Mock
 import pytest
-
 from libpytools import github_api
 
 """
