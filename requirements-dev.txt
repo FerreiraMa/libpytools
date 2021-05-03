@@ -9,6 +9,8 @@ six==1.15.0
 attrs==20.3.0
 pluggy==0.13.1
 py==1.10.0
+pytest-mock==3.6.0
+
 
 # Converaqe
 coverage==5.5
