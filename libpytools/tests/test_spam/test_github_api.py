@@ -20,7 +20,6 @@ def test_buscar_avatar():
     github_api.requests.get = get_original
 
 # fixture utilizada antes de instalar o pytest-mock
-
 @pytest.fixture
 def avatar_url():
     resp_mock = Mock()
